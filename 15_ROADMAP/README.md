@@ -15,3 +15,26 @@ Decision History: DL-0001
 
 This module defines the staged development roadmap for LOS, Lumicure, Golilo, AI agents, automation, and infrastructure.
 
+## Active Sprints
+
+### Sprint 0: Repository Architecture
+
+Status: Active Development
+
+- Finalize folder structure
+- README
+- Versioning policy
+- RFC template
+- ADR template
+- Decision Log template
+
+### Sprint 1: LOS-000 Constitution
+
+Status: Not Started
+
+- Why Lumicure Exists
+- Doctrine
+- Non-negotiables
+- Decision Framework
+- Definition of Trust
+- Long-term Vision

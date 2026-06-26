@@ -1,6 +1,6 @@
-# Lumicure Operating System
+# Lumicure Organizational System
 
-Title: Lumicure Operating System  
+Title: Lumicure Organizational System  
 Version: 1.0.0  
 Status: Active Development  
 Owner: Lumicure  
@@ -13,9 +13,9 @@ Decision History: DL-0001
 
 ## What Is LOS?
 
-LOS is the internal operating system for Lumicure.
+LOS is the internal organizational system for Lumicure.
 
-It defines how Lumicure thinks, decides, builds, governs, documents, and improves. It is not a document archive. It is a versioned operating architecture for the company.
+It defines how Lumicure thinks, decides, builds, governs, documents, and improves. It is not a document archive. It is a versioned organizational architecture for the company.
 
 LOS is organized like software:
 
@@ -44,7 +44,7 @@ This keeps company memory, strategic authority, and governance inside Lumicure w
 2. AI agents execute decisions; they do not invent strategy.
 3. Important decisions are recorded as decision logs, RFCs, or ADRs.
 4. Every module should be readable by both people and machines.
-5. Versioning makes the operating system durable over time.
+5. Versioning makes the organizational system durable over time.
 
 ## Repository Structure
 
@@ -116,6 +116,30 @@ Every important decision should be traceable years later.
 5. Use ADRs for architecture decisions.
 6. Record accepted strategic decisions in the decision log.
 7. Update metadata and CHANGELOG entries with each meaningful change.
+
+## Sprint Discipline
+
+LOS development follows software discipline.
+
+Sprint 0 is repository architecture:
+
+- Finalize folder structure
+- README
+- Versioning policy
+- RFC template
+- ADR template
+- Decision Log template
+
+Sprint 1 is `LOS-000: Constitution`:
+
+- Why Lumicure Exists
+- Doctrine
+- Non-negotiables
+- Decision Framework
+- Definition of Trust
+- Long-term Vision
+
+No random chapters should be written before Sprint 0 is complete.
 
 ## AI Agent Rule
 

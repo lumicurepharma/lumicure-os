@@ -21,3 +21,8 @@ This module stores Lumicure's institutional memory.
 - RFCs capture proposals before major changes are accepted.
 - ADRs capture architecture decisions and their alternatives.
 
+## Templates
+
+- TEMPLATE_Decision_Log.md
+- TEMPLATE_RFC.md
+- TEMPLATE_ADR.md
