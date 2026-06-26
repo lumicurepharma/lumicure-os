@@ -17,6 +17,8 @@ This module defines the staged development roadmap for LOS, Lumicure, Golilo, AI
 
 ## Active Sprints
 
+Project Codename: Project Axiom
+
 ### Sprint 0: Repository Architecture
 
 Status: Active Development
@@ -27,6 +29,11 @@ Status: Active Development
 - RFC template
 - ADR template
 - Decision Log template
+- GitHub issue templates
+- Pull request template
+- CODEOWNERS
+- GitHub Actions documentation check
+- Documentation style guide
 
 ### Sprint 1: LOS-000 Constitution
 

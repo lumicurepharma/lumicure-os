@@ -1,0 +1,35 @@
+name: Decision Log
+description: Record an accepted strategic or business decision.
+title: "DL: "
+labels:
+  - decision-log
+body:
+  - type: textarea
+    id: decision
+    attributes:
+      label: Decision
+      description: What decision has been accepted?
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: Reason
+      description: Why was this decision made?
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives
+      description: What alternatives were considered?
+    validations:
+      required: true
+  - type: input
+    id: date
+    attributes:
+      label: Date
+      placeholder: YYYY-MM-DD
+    validations:
+      required: true
+

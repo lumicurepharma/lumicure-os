@@ -11,6 +11,8 @@ Review Date: 2026-09-26
 References: CHANGELOG.md, CONTRIBUTING.md  
 Decision History: DL-0001
 
+Internal Codename: Project Axiom
+
 ## What Is LOS?
 
 LOS is the internal organizational system for Lumicure.
@@ -140,6 +142,17 @@ Sprint 1 is `LOS-000: Constitution`:
 - Long-term Vision
 
 No random chapters should be written before Sprint 0 is complete.
+
+## Architecture Review Board
+
+Major LOS decisions should pass the Architecture Review Board filter:
+
+- Does this align with the Constitution?
+- Does it strengthen trust?
+- Is it scalable?
+- Is it documentable?
+- Can it eventually be automated?
+- Does it create a durable competitive advantage?
 
 ## AI Agent Rule
 

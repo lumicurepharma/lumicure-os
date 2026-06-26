@@ -1,0 +1,34 @@
+name: Task
+description: Track implementation work for LOS.
+title: "TASK: "
+labels:
+  - task
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What needs to be done?
+    validations:
+      required: true
+  - type: dropdown
+    id: sprint
+    attributes:
+      label: Sprint
+      options:
+        - Sprint 0: Repository & governance
+        - Sprint 1: LOS-000 Constitution
+        - Sprint 2: Business Architecture
+        - Sprint 3: Trust Framework
+        - Sprint 4: Financial Engine & DPR
+        - Sprint 5: Technology & Golilo PRD
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance Criteria
+      description: What must be true for this task to be complete?
+    validations:
+      required: true
+

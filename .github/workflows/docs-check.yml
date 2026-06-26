@@ -1,0 +1,48 @@
+name: Docs Check
+
+on:
+  pull_request:
+    paths:
+      - "**/*.md"
+      - ".github/workflows/docs-check.yml"
+  push:
+    branches:
+      - main
+    paths:
+      - "**/*.md"
+      - ".github/workflows/docs-check.yml"
+
+jobs:
+  metadata:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Check LOS metadata
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          missing=0
+          required=("Title:" "Version:" "Status:" "Owner:" "Last Updated:" "Dependencies:" "Related Chapters:" "Review Date:" "References:" "Decision History:")
+
+          while IFS= read -r file; do
+            case "$file" in
+              .github/*)
+                continue
+                ;;
+              README.md|CHANGELOG.md|LICENSE|CODE_OF_CONDUCT.md|CONTRIBUTING.md|13_DECISIONS/TEMPLATE_*.md)
+                continue
+                ;;
+            esac
+
+            for field in "${required[@]}"; do
+              if ! grep -q "$field" "$file"; then
+                echo "$file is missing metadata field: $field"
+                missing=1
+              fi
+            done
+          done < <(find . -name "*.md" -not -path "./.git/*" -printf "%P\n")
+
+          exit "$missing"

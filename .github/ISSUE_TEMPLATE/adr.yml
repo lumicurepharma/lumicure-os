@@ -1,0 +1,35 @@
+name: ADR
+description: Propose or record an architecture decision.
+title: "ADR: "
+labels:
+  - adr
+body:
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: What architecture problem are we deciding?
+    validations:
+      required: true
+  - type: textarea
+    id: decision
+    attributes:
+      label: Decision
+      description: What is the proposed or accepted decision?
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives
+      description: What options were considered?
+    validations:
+      required: true
+  - type: textarea
+    id: consequences
+    attributes:
+      label: Consequences
+      description: What becomes easier, harder, or constrained?
+    validations:
+      required: true
+

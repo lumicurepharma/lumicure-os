@@ -13,3 +13,5 @@ All notable changes to Lumicure Organizational System are documented in this fil
 - Renamed LOS from Lumicure Operating System to Lumicure Organizational System.
 - Added Sprint 0 and Sprint 1 discipline.
 - Added reusable templates for RFCs, ADRs, and Decision Logs.
+- Added Project Axiom internal codename.
+- Added GitHub issue templates, pull request template, CODEOWNERS, documentation check workflow, and documentation style guide.
