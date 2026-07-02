@@ -1958,3 +1958,566 @@ The Operating Functions defined in Part II create the following implications:
 LKS-003 Part II — Operating Functions is approved and frozen.
 
 Later sections shall reference this Part rather than redefine Lumicure’s operating functions.
+
+## Part III — Decision Rights and Authority
+
+---
+
+## 30. Purpose of Part III
+
+Part III defines how decisions are made within Lumicure’s Operating Model.
+
+Part I defined Lumicure’s operating philosophy and operating principles.
+
+Part II defined Lumicure’s core operating functions.
+
+Part III defines how authority, accountability, escalation, documentation, and learning apply to decisions across those functions.
+
+This Part answers one question:
+
+**How does Lumicure ensure that decisions are made by the right authority, with the right information, at the right level of risk, while preserving accountability and institutional learning?**
+
+Decision rights are necessary because unclear authority creates delay, confusion, risk, undocumented assumptions, and founder dependency.
+
+Lumicure shall not rely only on personal judgment, informal approvals, or memory-based decision making.
+
+Lumicure shall design decision authority as an operating capability.
+
+---
+
+## 31. Decision Philosophy
+
+Lumicure shall make decisions through disciplined judgment.
+
+The decision philosophy is:
+
+```text id="k6wz9m"
+Right Information
+        ↓
+Right Function
+        ↓
+Right Authority
+        ↓
+Right Risk Review
+        ↓
+Clear Decision
+        ↓
+Documented Rationale
+        ↓
+Learning Capture
+```
+
+A good decision is not merely a fast decision.
+
+A good decision is:
+
+* truthful,
+* evidence-based,
+* constitutionally aligned,
+* proportionate to risk,
+* made by the appropriate authority,
+* documented where required,
+* reviewable later,
+* capable of improving future judgment.
+
+Lumicure shall avoid two extremes:
+
+1. **Careless speed** — acting quickly without sufficient evidence, review, or authority.
+2. **Unnecessary delay** — over-escalating routine decisions that can be safely handled by the responsible function.
+
+The goal is disciplined speed.
+
+Lumicure should move fast when risk is low and information is sufficient.
+
+Lumicure should slow down when risk is high, information is incomplete, or trust, compliance, quality, finance, or reputation may be affected.
+
+---
+
+## 32. Decision Rights Principle
+
+Decision rights shall belong to functions before individuals.
+
+Individuals may hold authority because they are responsible for a function.
+
+However, the authority belongs to the work, not merely to the person.
+
+This distinction is important.
+
+In the early phase, Harshal may personally hold many decision rights.
+
+As Lumicure grows, those rights may be delegated to employees, consultants, committees, systems, or formal roles.
+
+The principle is:
+
+```text id="ez05qf"
+Function owns the decision logic
+        ↓
+Person or role exercises the authority
+        ↓
+Decision is documented where required
+        ↓
+Learning improves future decisions
+```
+
+This prevents Lumicure from becoming dependent only on individual memory or informal control.
+
+---
+
+## 33. Decision Classification
+
+Lumicure shall classify decisions before assigning authority.
+
+Not all decisions require the same level of review.
+
+The decision classification model is:
+
+| Decision Class                           | Description                                                                                                    | Example                                                                      |
+| ---------------------------------------- | -------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
+| Routine Operating Decision               | Low-risk decision within an approved workflow                                                                  | Sending a follow-up email, updating a tracker, requesting standard documents |
+| Functional Decision                      | Decision owned by one operating function within defined limits                                                 | Commercial qualifying an RFQ, Regulatory preparing a document checklist      |
+| Cross-Functional Decision                | Decision requiring input from multiple functions                                                               | Product feasibility, supplier suitability, quotation readiness               |
+| Risk-Sensitive Decision                  | Decision involving trust, quality, compliance, finance, payment, reputation, or documentation risk             | Accepting a new supplier, approving unusual payment terms                    |
+| Strategic Decision                       | Decision affecting country focus, business model, major capital, platform direction, or long-term architecture | Entering a new country, launching Golilo external service                    |
+| Constitutional or Architectural Decision | Decision affecting LKS-000, LKS-001, LKS-002, governance rules, or approved canonical documents                | Amending Business Architecture, changing core principles                     |
+
+The higher the decision class, the stronger the need for evidence, review, documentation, and authority.
+
+---
+
+## 34. Authority Levels
+
+Lumicure shall use authority levels to determine who may decide, who must review, and when escalation is required.
+
+| Authority Level                             | Meaning                                                                                                               | Typical Use                                                                         |
+| ------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
+| Level 0 — Record Only                       | Action may be taken within an approved routine, but must be recorded                                                  | Routine tracker updates, standard follow-ups, simple document receipt               |
+| Level 1 — Function Owner Decision           | Responsible function may decide within defined scope and low-risk boundaries                                          | Initial buyer qualification, standard supplier follow-up, checklist preparation     |
+| Level 2 — Cross-Functional Review           | Two or more functions must review before decision                                                                     | Product feasibility, supplier suitability, document readiness, quotation readiness  |
+| Level 3 — Founder Approval                  | Founder approval required due to strategic, financial, trust, compliance, or reputation significance                  | High-value opportunity, major supplier selection, high-risk terms, country priority |
+| Level 4 — Architecture or Governance Review | Formal review required because decision affects architecture, governance, canonical documents, or long-term direction | LKS amendment, new operating function, platform launch, major strategic shift       |
+
+In the early phase, the Founder may personally exercise Level 1, Level 2, and Level 3 authority because functions are founder-held.
+
+However, LKS-003 shall still distinguish these levels so that authority can later be delegated responsibly.
+
+---
+
+## 35. Decision Rights by Function
+
+Decision rights define what each function may decide, recommend, or escalate.
+
+This is not a full approval matrix.
+
+Detailed approval matrices may be created later.
+
+This section defines operating authority at the architecture level.
+
+| Function                             | Owns / Decides                                                                                                  | Recommends                                                                           | Must Escalate                                                                                   |
+| ------------------------------------ | --------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------- |
+| Founder Office                       | Strategic direction, final high-risk approvals, capital allocation, architectural decisions, major partnerships | Future governance structures, delegation model, strategic priorities                 | Constitutional conflict, major reputation risk, major financial exposure, business model change |
+| Commercial                           | Initial buyer interest, RFQ quality, buyer follow-up, commercial pipeline status                                | Buyer suitability, pricing discussion readiness, opportunity priority                | Unverified buyer claims, unusual credit demand, major buyer commitment, reputation risk         |
+| Manufacturer and Supplier Management | Supplier records, supplier information collection, initial supplier verification status, product-source mapping | Supplier suitability, supplier risk level, manufacturer options                      | Unverified documents, high-risk supplier, supplier credibility concern, overdependence risk     |
+| Regulatory and Documentation         | Document requirement identification, documentation checklist preparation, document gap reporting                | Documentation readiness, regulatory feasibility, country-entry document concerns     | Unclear legal/regulatory pathway, missing critical documents, doubtful document authenticity    |
+| Quality and Trust                    | Trust risk flags, verification observations, quality concern escalation, evidence standards                     | Supplier credibility, quality sensitivity, transaction trust risk                    | Quality concern, misrepresentation risk, complaint, trust-damaging transaction                  |
+| Export Operations and Logistics      | Execution trackers, shipment readiness status, logistics coordination updates, operational handover records     | Shipment readiness, execution feasibility, logistics risk                            | Major shipment delay, incomplete export document flow, logistics failure risk                   |
+| Finance and Commercial Risk          | Commercial risk notes, payment term review, working capital observations, financial record discipline           | Margin acceptability, credit risk, payment structure, banking requirement            | High credit exposure, weak payment security, margin erosion, working capital stress             |
+| Knowledge & Continuous Improvement   | Lessons learned records, SOP inputs, knowledge backlog, process improvement recommendations                     | SOP creation, template revision, decision record need, LKS/LOS improvement           | Repeated failure pattern, undocumented critical decision, uncontrolled knowledge drift          |
+| Digital Systems & Automation         | Operational tool support, tracker structure, version control support, automation readiness notes                | Tool selection, workflow digitization, AI use case suitability, data structure needs | Automation of unvalidated workflow, data integrity risk, access control concern, AI misuse risk |
+
+Decision rights shall evolve as Lumicure grows.
+
+However, the principle shall remain stable:
+
+**Decisions must be made by the function closest to the work, unless risk requires escalation.**
+
+---
+
+## 36. Decision Inputs
+
+No important decision should be made without required information.
+
+Decision quality depends on information quality.
+
+Before making or escalating a decision, the responsible function should identify:
+
+* What is being decided?
+* Why is the decision needed now?
+* Which function owns the decision?
+* What evidence is available?
+* What evidence is missing?
+* What risks are known?
+* Which functions are affected?
+* What are the options?
+* What are the consequences?
+* Does the decision require documentation?
+* Does the decision require escalation?
+
+A decision without sufficient information may still be necessary in business reality.
+
+However, uncertainty must be recognized, not hidden.
+
+When Lumicure must decide under uncertainty, the uncertainty itself should be documented.
+
+---
+
+## 37. Escalation Framework
+
+Escalation is required when the responsible function lacks authority, information, certainty, or risk tolerance to decide safely.
+
+Escalation shall not be treated as weakness.
+
+Escalation is operating discipline.
+
+### 37.1 Mandatory Escalation Triggers
+
+A decision must be escalated when it involves:
+
+* Possible contradiction with LKS-000.
+* Possible violation of law, regulation, or compliance requirement.
+* Doubtful document authenticity.
+* Quality concern.
+* Trust or reputation risk.
+* Buyer or supplier misrepresentation.
+* High payment risk.
+* Unusual credit request.
+* Significant working capital exposure.
+* Major shipment risk.
+* Unclear regulatory pathway.
+* New country entry.
+* Major product category addition.
+* Strategic partnership.
+* Platform or technology risk.
+* AI use in sensitive decisions.
+* Change to approved LKS documents.
+* Repeated operational failure pattern.
+
+### 37.2 Escalation Path
+
+The default escalation path is:
+
+```text id="9ef0yg"
+Function Owner
+        ↓
+Affected Function Review
+        ↓
+Founder Office
+        ↓
+Architecture or Governance Review, if needed
+```
+
+In the early phase, the same person may occupy multiple levels.
+
+Even then, the escalation logic must be documented.
+
+The question is not only:
+
+```text id="h00jva"
+Who decided?
+```
+
+The question is also:
+
+```text id="hzx8fl"
+Which level of authority was exercised?
+```
+
+This distinction allows Lumicure to delegate safely later.
+
+---
+
+## 38. Delegation Principles
+
+Delegation allows Lumicure to grow.
+
+However, delegation must not weaken accountability.
+
+Delegation shall follow these principles:
+
+1. Authority may be delegated only when the function is sufficiently documented.
+
+2. Delegated decisions must have clear boundaries.
+
+3. Delegated decisions must identify what requires escalation.
+
+4. Delegation must include required information standards.
+
+5. Delegation must include record-keeping requirements.
+
+6. Delegation must include review cadence.
+
+7. Delegation must include reversal or correction mechanisms.
+
+8. Delegation must not allow violation of LKS-000, LKS-001, or LKS-002.
+
+Delegation is mature only when a capable person can execute the decision correctly without constant Founder presence.
+
+This reflects Rule 005 — Founder Independence Test.
+
+---
+
+## 39. Founder-Held Authority in Early Phase
+
+In the early phase, many decision rights will be founder-held.
+
+This is acceptable.
+
+However, founder-held authority must still be structured.
+
+The early-stage logic is:
+
+```text id="a9d13p"
+Founder performs multiple functions
+        ↓
+Decision level is identified
+        ↓
+Rationale is documented when significant
+        ↓
+Pattern becomes operating knowledge
+        ↓
+Decision can later be delegated
+```
+
+Founder-held does not mean undocumented.
+
+Founder-held does not mean informal forever.
+
+Founder-held does not mean impossible to delegate.
+
+Founder-held means the Founder currently exercises authority that must eventually become teachable, reviewable, and transferable where appropriate.
+
+---
+
+## 40. Decision Documentation
+
+Not every decision requires a formal record.
+
+However, every significant decision must leave a trace.
+
+Decision documentation may include:
+
+* Simple note in a tracker.
+* Meeting note.
+* Decision log entry.
+* ADR.
+* Email record.
+* Approval note.
+* Risk review note.
+* Post-transaction review.
+* LKS or LOS update.
+
+The level of documentation should be proportionate to decision risk.
+
+### 40.1 Decisions That Require Documentation
+
+The following decisions should be documented:
+
+* Buyer qualification decision.
+* Supplier qualification decision.
+* Product feasibility decision.
+* Documentation readiness decision.
+* Quotation approval for serious opportunity.
+* Payment term approval.
+* High-risk commercial decision.
+* Regulatory uncertainty decision.
+* Quality or trust concern.
+* Major shipment issue.
+* Country prioritization.
+* Major capital allocation.
+* Platform or AI decision.
+* SOP creation or amendment.
+* LKS document change.
+* Strategic partnership decision.
+
+Documentation should answer:
+
+```text id="mg7ouh"
+What was decided?
+        ↓
+Who decided?
+        ↓
+Which function owned the decision?
+        ↓
+What evidence was used?
+        ↓
+What risk was considered?
+        ↓
+Why was this option chosen?
+        ↓
+What should be reviewed later?
+```
+
+This preserves institutional judgment.
+
+---
+
+## 41. Decision Review and Learning
+
+Decisions must improve Lumicure’s future judgment.
+
+A decision is not complete merely because action was taken.
+
+Important decisions should be reviewed when outcomes are known.
+
+Review should ask:
+
+* Was the decision correct?
+* Was the information sufficient?
+* Was the authority level appropriate?
+* Was escalation needed earlier?
+* Did the decision protect trust?
+* Did the decision protect compliance?
+* Did the decision protect financial discipline?
+* What did Lumicure learn?
+* Should a workflow, SOP, checklist, template, or system be improved?
+
+Decision review connects authority to learning.
+
+The decision learning loop is:
+
+```text id="ksq011"
+Decision
+        ↓
+Execution
+        ↓
+Outcome
+        ↓
+Review
+        ↓
+Learning
+        ↓
+Improved Decision Logic
+```
+
+This loop strengthens institutional judgment.
+
+---
+
+## 42. Decision Traceability
+
+Decision traceability allows future people, systems, and AI agents to understand how Lumicure reached a conclusion.
+
+Traceability is especially important for:
+
+* trust,
+* compliance,
+* quality,
+* finance,
+* supplier selection,
+* buyer qualification,
+* country strategy,
+* regulatory assumptions,
+* AI-supported decisions,
+* architecture changes.
+
+Decision traceability means Lumicure can answer:
+
+* What was decided?
+* Why was it decided?
+* Who had authority?
+* What information was available?
+* Which risks were accepted?
+* Which alternatives were rejected?
+* What happened after the decision?
+* What learning resulted?
+
+Traceability protects Lumicure from memory loss, repeated mistakes, and unreviewable judgment.
+
+---
+
+## 43. AI and Decision Authority
+
+AI may support decisions.
+
+AI shall not own final accountability.
+
+AI may assist with:
+
+* summarizing information,
+* retrieving approved LKS knowledge,
+* comparing documents,
+* identifying missing information,
+* flagging risks,
+* drafting decision notes,
+* suggesting review questions,
+* checking consistency with approved documents.
+
+AI shall not:
+
+* approve buyers,
+* approve suppliers,
+* approve quality claims,
+* approve credit risk,
+* approve regulatory interpretations,
+* approve shipment release,
+* approve LKS amendments,
+* override Founder or function authority,
+* treat unvalidated assumptions as truth.
+
+When AI supports a decision, the human decision owner remains accountable.
+
+AI-supported decisions must be traceable.
+
+The decision record should make clear when AI assistance materially influenced analysis, drafting, risk review, or recommendation.
+
+---
+
+## 44. What Part III Does Not Do
+
+Part III does not define:
+
+* Complete approval matrix.
+* Legal delegation of authority.
+* Board governance.
+* Statutory signing authority.
+* Job descriptions.
+* Detailed SOP approvals.
+* Software permission architecture.
+* ERP workflow permissions.
+* Final financial approval limits.
+* Full contract approval process.
+
+Those subjects shall be handled in specialized governance, legal, financial, SOP, and technology documents.
+
+Part III defines decision rights and authority logic within Lumicure’s Operating Model.
+
+---
+
+## 45. Architectural Implications
+
+The Decision Rights and Authority model defined in Part III creates the following implications:
+
+1. Decision authority shall belong to functions before individuals.
+
+2. Founder-held decisions must still be classified, documented, and made delegable where appropriate.
+
+3. Higher-risk decisions require stronger evidence, review, escalation, and documentation.
+
+4. Decision quality is an operating capability.
+
+5. Delegation must be structured before hiring expands.
+
+6. Escalation is operating discipline, not weakness.
+
+7. Significant decisions must leave a trace.
+
+8. AI may support decisions but shall not own accountability.
+
+9. Future SOPs must inherit decision authority from LKS-003 rather than inventing approval logic independently.
+
+10. Future LOS documents must convert decision rights into practical routines, templates, trackers, and review systems.
+
+11. Future Financial Architecture must define numeric limits and financial authority thresholds consistent with this model.
+
+12. Future Trust Architecture must define evidence standards for trust-sensitive decisions.
+
+13. Future Technology and AI Architecture must define system controls that preserve decision traceability and accountability.
+
+---
+
+## Part III Status
+
+LKS-003 Part III — Decision Rights and Authority is submitted for architecture review.
+
+This Part should be reviewed for decision clarity, authority logic, escalation discipline, delegation readiness, AI accountability, founder independence, and alignment with LKS-000, LKS-001, LKS-002, ADR-0003, and LKS Quality Standard v1.0.
+
+My review: this is the missing link between functions and execution. It does not yet define SOP approvals or numeric financial limits; those belong later. It defines the authority logic that future SOPs and systems must inherit.
