@@ -669,3 +669,1168 @@ The Operating Philosophy and Principles defined in Part I create the following i
 LKS-003 Part I — Operating Philosophy and Operating Principles is approved and frozen.
 
 Later sections shall reference this Part rather than redefine Lumicure’s operating philosophy.
+
+## Part II — Operating Functions
+
+---
+
+## 12. Purpose of Part II
+
+Part II defines the core operating functions of Lumicure.
+
+Part I established the operating philosophy and operating principles.
+
+Part II defines the permanent categories of work that Lumicure must own in order to operate.
+
+These are functions, not departments.
+
+A function describes work that must be owned.
+
+A department describes an organizational structure that may evolve later.
+
+In the early phase, one person may hold multiple functions.
+
+As Lumicure grows, functions may become roles, teams, departments, software modules, AI-supported workflows, or external partnerships.
+
+Part II answers one question:
+
+**What work must Lumicure own, regardless of who performs it today?**
+
+---
+
+## 13. Rule 006 — Function Persistence Test
+
+Every operating function must pass the Function Persistence Test:
+
+**Would Lumicure still require this function if the company were ten times larger, used different software, had different employees, or reorganized into different departments?**
+
+If the answer is yes, it is likely to be a function.
+
+If the answer is no, it is likely to be:
+
+* a role,
+* a department,
+* a workflow,
+* a task,
+* a software feature,
+* or a temporary implementation.
+
+This test prevents Lumicure from confusing enduring work with current staffing arrangements.
+
+For example:
+
+```text id="w7wcl8"
+Commercial
+Regulatory
+Quality and Trust
+Finance
+Knowledge & Continuous Improvement
+```
+
+are operating functions.
+
+But:
+
+```text id="s3nadb"
+Sales Executive
+Export Team
+Accounts Department
+CRM User
+Documentation Assistant
+```
+
+are roles, departments, or implementation choices.
+
+Functions endure.
+
+Structures evolve.
+
+---
+
+## 14. Function Design Standard
+
+Each operating function shall be described using the following attributes:
+
+| Attribute                   | Meaning                                                                   |
+| --------------------------- | ------------------------------------------------------------------------- |
+| Purpose                     | Why the function exists                                                   |
+| Primary Outcomes            | What success looks like                                                   |
+| Inputs                      | Information or triggers required                                          |
+| Outputs                     | Deliverables produced                                                     |
+| Decision Authority          | What decisions the function owns or recommends                            |
+| Interfaces                  | Which other functions it interacts with                                   |
+| Knowledge Capture           | What learning it contributes to LKS, LOS, SOPs, or future systems         |
+| Future Automation Potential | Which parts may later be supported by software, dashboards, AI, or Golilo |
+
+This standard ensures that functions are not described vaguely.
+
+Each function must be executable, teachable, reviewable, and improvable.
+
+---
+
+## 15. Core Operating Functions of Lumicure
+
+Lumicure’s initial Operating Model shall include nine core operating functions:
+
+1. Founder Office
+2. Commercial
+3. Manufacturer and Supplier Management
+4. Regulatory and Documentation
+5. Quality and Trust
+6. Export Operations and Logistics
+7. Finance and Commercial Risk
+8. Knowledge & Continuous Improvement
+9. Technology and Systems
+
+These functions define what Lumicure must be able to do.
+
+They do not define how many people Lumicure must hire immediately.
+
+During the early phase, the Founder may perform several functions personally.
+
+However, each function must still be defined separately so that it can later be delegated, improved, measured, systematized, and supported by technology.
+
+---
+
+## 16. Founder Office
+
+### Purpose
+
+The Founder Office holds constitutional, strategic, architectural, and final decision authority during Lumicure’s early phase.
+
+It protects alignment between daily execution and Lumicure’s long-term purpose.
+
+### Primary Outcomes
+
+The Founder Office ensures that:
+
+* Lumicure remains aligned with LKS-000.
+* Business decisions remain aligned with LKS-002.
+* Major risks are reviewed before action.
+* Capital is allocated responsibly.
+* Strategic opportunities are evaluated.
+* Governance discipline is maintained.
+* Delegation happens without losing accountability.
+
+### Inputs
+
+The Founder Office receives:
+
+* Buyer opportunities.
+* Supplier recommendations.
+* Regulatory risks.
+* Financial decisions.
+* Strategic proposals.
+* Escalations.
+* Decision records.
+* Performance reviews.
+* Knowledge updates.
+
+### Outputs
+
+The Founder Office produces:
+
+* Strategic decisions.
+* Final approvals.
+* Escalation decisions.
+* Architecture direction.
+* Capital allocation decisions.
+* Governance decisions.
+* Founder-level review notes.
+* Decision records where required.
+
+### Decision Authority
+
+The Founder Office owns or approves:
+
+* New country prioritization.
+* Major buyer decisions.
+* Major supplier decisions.
+* High-risk commercial terms.
+* Large capital allocation.
+* Major partnerships.
+* Platform direction.
+* LKS architecture changes.
+* Final escalation decisions.
+
+### Interfaces
+
+The Founder Office interfaces with all operating functions.
+
+It is especially connected to:
+
+* Commercial
+* Finance and Commercial Risk
+* Quality and Trust
+* Regulatory and Documentation
+* Knowledge & Continuous Improvement
+* Technology and Systems
+
+### Knowledge Capture
+
+The Founder Office must capture:
+
+* Major strategic decisions.
+* Rationale behind approvals or rejections.
+* Lessons from high-risk opportunities.
+* Changes in business direction.
+* Governance issues.
+* Architecture decisions.
+
+### Future Automation Potential
+
+Future systems may support the Founder Office through:
+
+* Executive dashboards.
+* Decision logs.
+* Risk summaries.
+* AI-assisted briefings.
+* Architecture consistency checks.
+* Opportunity scoring.
+* Governance alerts.
+
+AI may assist the Founder Office.
+
+AI shall not replace Founder accountability.
+
+---
+
+## 17. Commercial
+
+### Purpose
+
+The Commercial function manages buyer discovery, inquiry handling, RFQs, opportunity qualification, quotations, buyer relationships, and commercial follow-up.
+
+It converts market interest into qualified business opportunities.
+
+### Primary Outcomes
+
+Commercial succeeds when Lumicure has:
+
+* Genuine buyer leads.
+* Qualified opportunities.
+* Clear buyer requirements.
+* Accurate RFQ records.
+* Disciplined quotation flow.
+* Better buyer relationships.
+* Repeat opportunity potential.
+* Commercial learning from buyer interactions.
+
+### Inputs
+
+Commercial receives:
+
+* Buyer inquiries.
+* Market research.
+* Product demand signals.
+* Distributor lists.
+* RFQs.
+* Tender or institutional demand signals.
+* Buyer communication.
+* Country opportunity hypotheses.
+
+### Outputs
+
+Commercial produces:
+
+* Buyer records.
+* RFQ summaries.
+* Opportunity qualification notes.
+* Quotation requests.
+* Commercial proposals.
+* Buyer follow-up records.
+* Buyer relationship updates.
+* Commercial lessons learned.
+
+### Decision Authority
+
+Commercial may recommend:
+
+* Whether a buyer is worth pursuing.
+* Whether an RFQ is serious.
+* Whether a product opportunity should be explored.
+* Whether pricing discussion should continue.
+* Whether an opportunity should be escalated.
+
+Commercial should not independently approve:
+
+* High-risk credit.
+* Misaligned documentation.
+* Major strategic market entry.
+* Unverified buyer commitments.
+* Terms that expose Lumicure to unacceptable risk.
+
+### Interfaces
+
+Commercial interfaces with:
+
+* Manufacturer and Supplier Management
+* Regulatory and Documentation
+* Finance and Commercial Risk
+* Quality and Trust
+* Export Operations and Logistics
+* Knowledge & Continuous Improvement
+
+### Knowledge Capture
+
+Commercial must capture:
+
+* Buyer objections.
+* Market demand patterns.
+* RFQ quality.
+* Pricing feedback.
+* Product interest.
+* Country-specific buyer behavior.
+* Reasons opportunities failed or advanced.
+* Relationship intelligence.
+
+### Future Automation Potential
+
+Future systems may support Commercial through:
+
+* CRM.
+* RFQ tracking.
+* Buyer scoring.
+* Opportunity pipeline dashboards.
+* Automated follow-up reminders.
+* AI-assisted buyer research.
+* Quotation history retrieval.
+* Country-market intelligence.
+
+---
+
+## 18. Manufacturer and Supplier Management
+
+### Purpose
+
+Manufacturer and Supplier Management identifies, verifies, qualifies, and manages manufacturing and supply partners.
+
+It ensures Lumicure works with suitable, compliant, reliable, and export-capable suppliers.
+
+### Primary Outcomes
+
+This function succeeds when Lumicure has:
+
+* Verified supplier records.
+* Qualified manufacturer options.
+* Product-source mapping.
+* Documentation readiness clarity.
+* Supplier reliability intelligence.
+* Reduced supplier uncertainty.
+* Better sourcing decisions.
+
+### Inputs
+
+This function receives:
+
+* Product requirements.
+* Buyer RFQs.
+* Supplier leads.
+* Manufacturer documents.
+* Product lists.
+* Compliance certificates.
+* Pricing offers.
+* Production feasibility information.
+* Past supplier performance data.
+
+### Outputs
+
+This function produces:
+
+* Supplier profiles.
+* Manufacturer verification records.
+* Supplier qualification notes.
+* Product-source mapping.
+* Supplier document checklists.
+* Supplier risk observations.
+* Recommended supplier options.
+* Supplier performance learnings.
+
+### Decision Authority
+
+Manufacturer and Supplier Management may recommend:
+
+* Whether a supplier is genuine.
+* Whether a supplier is suitable for a specific product.
+* Whether a supplier should be considered for a country or buyer.
+* Whether supplier documentation is adequate for further review.
+
+It should not independently approve:
+
+* Final high-risk supplier onboarding.
+* Supplier claims without evidence.
+* Quality-sensitive decisions without Quality and Trust review.
+* Regulatory suitability without Regulatory and Documentation review.
+
+### Interfaces
+
+This function interfaces with:
+
+* Commercial
+* Quality and Trust
+* Regulatory and Documentation
+* Finance and Commercial Risk
+* Export Operations and Logistics
+* Knowledge & Continuous Improvement
+
+### Knowledge Capture
+
+This function must capture:
+
+* Supplier strengths.
+* Supplier weaknesses.
+* Document responsiveness.
+* Product capability.
+* Pricing behavior.
+* Export readiness.
+* Reliability patterns.
+* Supplier-related risks and lessons.
+
+### Future Automation Potential
+
+Future systems may support this function through:
+
+* Supplier database.
+* Manufacturer verification workflows.
+* Product-source mapping tools.
+* Supplier scorecards.
+* Document expiry alerts.
+* AI-assisted certificate review.
+* Supplier risk dashboards.
+* Golilo supplier verification modules.
+
+---
+
+## 19. Regulatory and Documentation
+
+### Purpose
+
+Regulatory and Documentation manages regulatory understanding, document requirements, dossier coordination, and country-entry documentation support.
+
+It ensures that Lumicure does not treat pharmaceutical export as a simple trading activity detached from regulatory reality.
+
+### Primary Outcomes
+
+This function succeeds when Lumicure has:
+
+* Clear document requirements.
+* Country-specific regulatory understanding.
+* Dossier readiness visibility.
+* Accurate document checklists.
+* Reduced regulatory uncertainty.
+* Better communication with buyers and suppliers.
+* Improved documentation discipline.
+
+### Inputs
+
+This function receives:
+
+* Buyer document requests.
+* Country regulatory requirements.
+* Product details.
+* Manufacturer documents.
+* Dossier availability information.
+* Export documentation needs.
+* Registration or import pathway information.
+
+### Outputs
+
+This function produces:
+
+* Document requirement lists.
+* Regulatory notes.
+* Dossier readiness summaries.
+* Country-entry documentation observations.
+* Document gap reports.
+* Document checklists.
+* Regulatory risk flags.
+* Documentation lessons learned.
+
+### Decision Authority
+
+Regulatory and Documentation may recommend:
+
+* Whether required documents are identifiable.
+* Whether a product is documentation-ready.
+* Whether a country pathway requires deeper due diligence.
+* Whether an opportunity should pause due to regulatory uncertainty.
+
+It should not independently provide legal or regulatory certification beyond its competence.
+
+Where uncertainty is significant, escalation is required.
+
+### Interfaces
+
+This function interfaces with:
+
+* Commercial
+* Manufacturer and Supplier Management
+* Quality and Trust
+* Export Operations and Logistics
+* Finance and Commercial Risk
+* Knowledge & Continuous Improvement
+* Technology and Systems
+
+### Knowledge Capture
+
+This function must capture:
+
+* Country-specific document requirements.
+* Repeated documentation gaps.
+* Manufacturer dossier readiness.
+* Regulatory uncertainty.
+* Document turnaround issues.
+* Buyer documentation expectations.
+* Lessons for future country playbooks.
+
+### Future Automation Potential
+
+Future systems may support this function through:
+
+* Document checklist automation.
+* Country requirement databases.
+* Dossier readiness trackers.
+* Expiry reminders.
+* AI-assisted document comparison.
+* Regulatory knowledge retrieval.
+* Document workflow tools.
+* Golilo compliance modules.
+
+---
+
+## 20. Quality and Trust
+
+### Purpose
+
+Quality and Trust protects product credibility, supplier credibility, quality review, verification discipline, and trust standards.
+
+It ensures that Lumicure’s growth does not weaken trust, compliance, or reputation.
+
+### Primary Outcomes
+
+This function succeeds when Lumicure has:
+
+* Stronger supplier credibility.
+* Better verification discipline.
+* Quality-sensitive decision making.
+* Clear trust standards.
+* Reduced risk of misrepresentation.
+* Better escalation of quality concerns.
+* Improved trust records.
+
+### Inputs
+
+This function receives:
+
+* Supplier documents.
+* Product information.
+* Buyer quality requirements.
+* Manufacturer claims.
+* Complaints.
+* Quality concerns.
+* Verification evidence.
+* Past performance data.
+
+### Outputs
+
+This function produces:
+
+* Quality review notes.
+* Trust risk flags.
+* Verification observations.
+* Supplier credibility assessments.
+* Complaint review inputs.
+* Escalation recommendations.
+* Trust-related lessons learned.
+
+### Decision Authority
+
+Quality and Trust may recommend:
+
+* Whether trust risk is acceptable.
+* Whether claims require further evidence.
+* Whether a supplier or product needs deeper review.
+* Whether a concern must be escalated.
+* Whether a transaction may damage credibility.
+
+It should not approve questionable quality claims merely to support revenue.
+
+### Interfaces
+
+This function interfaces with:
+
+* Founder Office
+* Manufacturer and Supplier Management
+* Commercial
+* Regulatory and Documentation
+* Export Operations and Logistics
+* Knowledge & Continuous Improvement
+* Technology and Systems
+
+### Knowledge Capture
+
+This function must capture:
+
+* Trust concerns.
+* Verification patterns.
+* Quality-related incidents.
+* Supplier credibility issues.
+* Complaint learnings.
+* Risk indicators.
+* Evidence standards.
+* Improvements to trust processes.
+
+### Future Automation Potential
+
+Future systems may support this function through:
+
+* Trust scorecards.
+* Supplier evidence repositories.
+* Quality risk dashboards.
+* Complaint trackers.
+* Verification workflows.
+* AI-assisted risk flagging.
+* Golilo trust infrastructure modules.
+
+---
+
+## 21. Export Operations and Logistics
+
+### Purpose
+
+Export Operations and Logistics coordinates order execution, shipment readiness, logistics partners, export documentation flow, and operational follow-through.
+
+It converts approved commercial opportunities into executed transactions.
+
+### Primary Outcomes
+
+This function succeeds when Lumicure has:
+
+* Clear order execution tracking.
+* Shipment readiness visibility.
+* Logistics coordination.
+* Export documentation flow.
+* Timely communication.
+* Reduced execution errors.
+* Post-shipment learning.
+
+### Inputs
+
+This function receives:
+
+* Confirmed orders.
+* Commercial terms.
+* Supplier readiness information.
+* Product details.
+* Required export documents.
+* Logistics partner information.
+* Shipment timelines.
+* Payment milestone information.
+
+### Outputs
+
+This function produces:
+
+* Execution trackers.
+* Shipment readiness updates.
+* Logistics coordination notes.
+* Export documentation flow records.
+* Shipment status reports.
+* Post-shipment execution review.
+* Operational lessons learned.
+
+### Decision Authority
+
+Export Operations and Logistics may recommend:
+
+* Whether shipment readiness is adequate.
+* Whether logistics risk requires escalation.
+* Whether timelines are realistic.
+* Whether documentation flow is incomplete.
+* Whether execution should pause due to operational risk.
+
+It should not override quality, regulatory, or commercial risk concerns.
+
+### Interfaces
+
+This function interfaces with:
+
+* Commercial
+* Manufacturer and Supplier Management
+* Regulatory and Documentation
+* Quality and Trust
+* Finance and Commercial Risk
+* Knowledge & Continuous Improvement
+
+### Knowledge Capture
+
+This function must capture:
+
+* Execution delays.
+* Logistics issues.
+* Document flow bottlenecks.
+* Shipment coordination problems.
+* Partner performance.
+* Post-shipment learnings.
+* Improvements for future export SOPs.
+
+### Future Automation Potential
+
+Future systems may support this function through:
+
+* Shipment trackers.
+* Export documentation workflow tools.
+* Logistics partner database.
+* Milestone dashboards.
+* AI-assisted document completeness checks.
+* Post-shipment review templates.
+* Golilo transaction workflow modules.
+
+---
+
+## 22. Finance and Commercial Risk
+
+### Purpose
+
+Finance and Commercial Risk manages pricing discipline, payment terms, working capital awareness, commercial risk control, banking, and financial records.
+
+It protects Lumicure from revenue that damages financial stability or trust.
+
+### Primary Outcomes
+
+This function succeeds when Lumicure has:
+
+* Commercially viable opportunities.
+* Controlled payment risk.
+* Clear pricing discipline.
+* Working capital awareness.
+* Better bankability.
+* Financial records.
+* Risk-conscious growth.
+
+### Inputs
+
+This function receives:
+
+* Buyer payment terms.
+* Supplier pricing.
+* Logistics costs.
+* Currency considerations.
+* Tax and compliance inputs.
+* Bank requirements.
+* Order values.
+* Credit exposure information.
+* Working capital needs.
+
+### Outputs
+
+This function produces:
+
+* Commercial risk notes.
+* Pricing review inputs.
+* Payment term recommendations.
+* Working capital observations.
+* Bank communication inputs.
+* Financial records.
+* Risk escalation notes.
+* Financial lessons learned.
+
+### Decision Authority
+
+Finance and Commercial Risk may recommend:
+
+* Whether payment terms are acceptable.
+* Whether margin is reasonable.
+* Whether credit exposure is excessive.
+* Whether working capital risk is acceptable.
+* Whether banking or insurance support is needed.
+* Whether a transaction should be paused.
+
+It should not approve risky credit merely to win business.
+
+### Interfaces
+
+This function interfaces with:
+
+* Founder Office
+* Commercial
+* Manufacturer and Supplier Management
+* Export Operations and Logistics
+* Regulatory and Documentation
+* Knowledge & Continuous Improvement
+
+### Knowledge Capture
+
+This function must capture:
+
+* Pricing lessons.
+* Margin patterns.
+* Payment risk indicators.
+* Working capital pressure points.
+* Bank feedback.
+* Commercial risk incidents.
+* Improvements to pricing and payment controls.
+
+### Future Automation Potential
+
+Future systems may support this function through:
+
+* Pricing calculators.
+* Margin dashboards.
+* Payment risk trackers.
+* Working capital dashboards.
+* Bank document trackers.
+* AI-assisted commercial risk summaries.
+* Financial control workflows.
+
+---
+
+## 23. Knowledge & Continuous Improvement
+
+### Purpose
+
+Knowledge & Continuous Improvement captures lessons, decisions, templates, evidence, SOP inputs, process improvements, and institutional memory into LKS and LOS.
+
+It ensures that execution improves Lumicure rather than disappearing into memory.
+
+### Primary Outcomes
+
+This function succeeds when Lumicure has:
+
+* Captured lessons.
+* Updated institutional knowledge.
+* Better templates.
+* Improved workflows.
+* SOP inputs.
+* Decision records.
+* Reduced repeated mistakes.
+* Stronger institutional memory.
+
+### Inputs
+
+This function receives:
+
+* Execution observations.
+* Review notes.
+* Decision records.
+* SOP gaps.
+* Repeated issues.
+* Improvement suggestions.
+* Post-transaction reviews.
+* Founder reflections.
+* Function-level learnings.
+
+### Outputs
+
+This function produces:
+
+* Lessons learned records.
+* LKS updates.
+* LOS inputs.
+* SOP improvement notes.
+* Template improvements.
+* Decision logs.
+* Knowledge backlog items.
+* Continuous improvement actions.
+
+### Decision Authority
+
+Knowledge & Continuous Improvement may recommend:
+
+* Whether learning should become an SOP.
+* Whether a template should be updated.
+* Whether a decision requires an ADR or decision record.
+* Whether a repeated issue requires process redesign.
+* Whether outdated knowledge requires review.
+
+It should not change approved canonical documents without governance approval.
+
+### Interfaces
+
+This function interfaces with every operating function.
+
+It is especially connected to:
+
+* Founder Office
+* Commercial
+* Regulatory and Documentation
+* Quality and Trust
+* Export Operations and Logistics
+* Technology and Systems
+
+### Knowledge Capture
+
+This function is responsible for ensuring knowledge capture occurs across Lumicure.
+
+It must capture:
+
+* Lessons learned.
+* Repeated patterns.
+* Improvement opportunities.
+* Operating gaps.
+* SOP candidates.
+* Decision rationale.
+* Institutional memory risks.
+* Knowledge quality issues.
+
+### Future Automation Potential
+
+Future systems may support this function through:
+
+* Knowledge databases.
+* Decision logs.
+* SOP repositories.
+* Review dashboards.
+* AI-assisted summarization.
+* Knowledge retrieval tools.
+* Continuous improvement trackers.
+* LKS and LOS governance workflows.
+
+---
+
+## 24. Technology and Systems
+
+### Purpose
+
+Technology and Systems supports tools, databases, automation, version control, AI-readiness, and future Golilo-enabling systems.
+
+It ensures that technology supports validated work rather than replacing operating discipline.
+
+### Primary Outcomes
+
+This function succeeds when Lumicure has:
+
+* Reliable basic systems.
+* Organized data.
+* Version-controlled documents.
+* Useful templates and trackers.
+* Improved retrieval.
+* Reduced manual error.
+* Better AI-readiness.
+* Future Golilo foundations.
+
+### Inputs
+
+This function receives:
+
+* Workflow requirements.
+* Data needs.
+* Document structures.
+* Automation opportunities.
+* AI use cases.
+* User feedback.
+* LKS and LOS requirements.
+* Operating bottlenecks.
+
+### Outputs
+
+This function produces:
+
+* Tools.
+* Trackers.
+* Databases.
+* System improvements.
+* Automation proposals.
+* AI-readiness structures.
+* Version control support.
+* Golilo-enabling infrastructure inputs.
+
+### Decision Authority
+
+Technology and Systems may recommend:
+
+* Which tools support current workflows.
+* Which processes are ready for automation.
+* Which data structures should be standardized.
+* Which AI use cases are safe to explore.
+* Which systems require governance controls.
+
+It should not automate unvalidated workflows.
+
+It should not override business, compliance, quality, or governance decisions.
+
+### Interfaces
+
+This function interfaces with all operating functions.
+
+It is especially connected to:
+
+* Knowledge & Continuous Improvement
+* Founder Office
+* Commercial
+* Regulatory and Documentation
+* Export Operations and Logistics
+* Quality and Trust
+
+### Knowledge Capture
+
+This function must capture:
+
+* System needs.
+* Automation gaps.
+* Data structure lessons.
+* Tool limitations.
+* AI risks.
+* User feedback.
+* Software-supported workflow improvements.
+* Golilo-relevant system learnings.
+
+### Future Automation Potential
+
+This function is itself the owner of future automation support.
+
+Its future work may include:
+
+* CRM.
+* Supplier databases.
+* Buyer databases.
+* Document workflows.
+* Export execution dashboards.
+* AI retrieval systems.
+* Verification tools.
+* Golilo platform modules.
+
+Technology must follow validated operations.
+
+---
+
+## 25. Function Interface Logic
+
+No operating function works alone.
+
+Lumicure shall treat functions as an interconnected operating system.
+
+The interface logic is:
+
+```text id="zhu2uz"
+Commercial identifies opportunity
+        ↓
+Manufacturer and Supplier Management checks supply feasibility
+        ↓
+Regulatory and Documentation checks document feasibility
+        ↓
+Quality and Trust reviews credibility and trust risk
+        ↓
+Finance and Commercial Risk reviews commercial risk
+        ↓
+Founder Office approves or escalates major decisions
+        ↓
+Export Operations and Logistics executes approved transaction
+        ↓
+Knowledge & Continuous Improvement captures learning
+        ↓
+Technology and Systems improves tools and workflows
+```
+
+This sequence is illustrative, not rigid.
+
+In real execution, functions may interact iteratively.
+
+However, no serious export opportunity should proceed without appropriate functional review.
+
+---
+
+## 26. Function Ownership in Early Phase
+
+In the early phase, Harshal may personally perform many or all functions.
+
+This does not mean the functions are absent.
+
+It means they are founder-held.
+
+The distinction is important.
+
+```text id="ppy6yj"
+Function exists
+        ↓
+Founder holds function initially
+        ↓
+Function becomes documented
+        ↓
+Function becomes teachable
+        ↓
+Function becomes delegable
+        ↓
+Function becomes scalable
+```
+
+Lumicure shall not wait for hiring before defining functions.
+
+Functions must be defined before hiring so that future roles are created intentionally.
+
+---
+
+## 27. Function-to-Future-Document Traceability
+
+The operating functions defined in Part II will guide future documents.
+
+| Function                             | Future Documents Influenced                                                            |
+| ------------------------------------ | -------------------------------------------------------------------------------------- |
+| Founder Office                       | Governance, decision records, delegation model, strategic review cadence               |
+| Commercial                           | Buyer SOPs, RFQ workflow, quotation process, CRM design, market development            |
+| Manufacturer and Supplier Management | Supplier onboarding SOPs, supplier verification, supplier database, Trust Architecture |
+| Regulatory and Documentation         | Regulatory playbooks, document checklists, dossier workflows, Export Architecture      |
+| Quality and Trust                    | Trust Architecture, quality review SOPs, complaint handling, verification standards    |
+| Export Operations and Logistics      | Export Architecture, shipment SOPs, logistics workflows, order execution trackers      |
+| Finance and Commercial Risk          | Financial Architecture, payment controls, pricing policy, working capital model        |
+| Knowledge & Continuous Improvement   | LOS, SOP Library, LKS governance, review loops, institutional learning                 |
+| Technology and Systems               | Technology Architecture, AI Architecture, Golilo Architecture, dashboards, automation  |
+
+This traceability ensures that future documents inherit operating logic rather than inventing it independently.
+
+---
+
+## 28. What Part II Does Not Do
+
+Part II does not define:
+
+* Departments.
+* Hiring plan.
+* Job descriptions.
+* Salary structure.
+* Detailed SOPs.
+* Complete approval matrix.
+* Software architecture.
+* Workflow automation.
+* Daily task checklists.
+* Performance appraisal system.
+
+Those subjects shall be handled in specialized documents.
+
+Part II defines the operating functions that Lumicure must own.
+
+---
+
+## 29. Architectural Implications
+
+The Operating Functions defined in Part II create the following implications:
+
+1. Lumicure shall design functions before departments.
+
+2. Hiring shall follow operating function needs, not vague workload pressure.
+
+3. Each function must own execution, knowledge capture, and continuous improvement.
+
+4. Founder-held functions must become documented before delegation.
+
+5. Future SOPs must map to operating functions.
+
+6. Future systems must support operating functions rather than impose arbitrary workflows.
+
+7. AI agents must assist functions without replacing accountability.
+
+8. Function interfaces must be clear before transaction volume increases.
+
+9. Knowledge & Continuous Improvement must serve as the bridge between execution, LKS, LOS, and SOPs.
+
+10. Future Operating Model sections must define decision rights, information flow, cadence, and governance around these functions.
+
+---
+
+## Part II Status
+
+LKS-003 Part II — Operating Functions is submitted for architecture review.
+
+This Part should be reviewed for function persistence, executability, founder independence, operating clarity, traceability, and alignment with LKS-000, LKS-001, LKS-002, ADR-0003, and LKS Quality Standard v1.0.
+
+My review: this is the correct abstraction. It defines **work that must be owned**, not people who must be hired. That keeps Lumicure scalable without making the early Operating Model unrealistic.
