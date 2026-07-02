@@ -25,7 +25,9 @@ jobs:
           set -euo pipefail
 
           missing=0
-          required=("Title:" "Version:" "Status:" "Owner:" "Last Updated:" "Dependencies:" "Related Chapters:" "Review Date:" "References:" "Decision History:")
+          legacy_required=("Title:" "Version:" "Status:" "Owner:")
+          lks_required=("title:" "status:")
+          lks_id_fields=("document_id:" "adr_id:" "standard_id:" "release_id:")
 
           while IFS= read -r file; do
             case "$file" in
@@ -37,9 +39,26 @@ jobs:
                 ;;
             esac
 
-            for field in "${required[@]}"; do
+            has_lks_id=0
+            for field in "${lks_id_fields[@]}"; do
+              if grep -q "^$field" "$file"; then
+                has_lks_id=1
+              fi
+            done
+
+            if [[ "$has_lks_id" == "1" ]]; then
+              for field in "${lks_required[@]}"; do
+                if ! grep -q "^$field" "$file"; then
+                  echo "$file is missing LKS metadata field: $field"
+                  missing=1
+                fi
+              done
+              continue
+            fi
+
+            for field in "${legacy_required[@]}"; do
               if ! grep -q "$field" "$file"; then
-                echo "$file is missing metadata field: $field"
+                echo "$file is missing legacy metadata field: $field"
                 missing=1
               fi
             done
