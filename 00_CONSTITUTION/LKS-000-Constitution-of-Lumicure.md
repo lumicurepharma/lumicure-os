@@ -11,7 +11,7 @@ created_on: 2026-07-02
 approved_on: 2026-07-02
 classification: Foundational
 constitutional_motto: Truth. Trust. Transformation.
----------------------------------------------------
+---
 
 # LKS-000
 
