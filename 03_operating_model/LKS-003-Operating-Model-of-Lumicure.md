@@ -760,11 +760,47 @@ Each operating function shall be described using the following attributes:
 | Decision Authority          | What decisions the function owns or recommends                            |
 | Interfaces                  | Which other functions it interacts with                                   |
 | Knowledge Capture           | What learning it contributes to LKS, LOS, SOPs, or future systems         |
+| Function Success Indicators | Architectural signs that the function is working well                     |
+| Common Failure Modes        | Typical ways the function may fail, drift, or create risk                 |
 | Future Automation Potential | Which parts may later be supported by software, dashboards, AI, or Golilo |
 
 This standard ensures that functions are not described vaguely.
 
 Each function must be executable, teachable, reviewable, and improvable.
+
+---
+
+## Cross-Function Operating Principles
+
+Lumicure’s operating functions must work as an integrated system.
+
+No function shall operate as an isolated silo.
+
+Every operating function shall follow these cross-function principles:
+
+1. Communicate early when another function may be affected.
+
+2. Document important decisions, assumptions, risks, and handovers.
+
+3. Escalate uncertainty before it becomes failure.
+
+4. Avoid duplicate work by using shared records, approved templates, and common repositories.
+
+5. Improve shared knowledge so that future execution becomes easier, faster, and safer.
+
+6. Respect function boundaries while supporting cross-functional execution.
+
+7. Treat unclear ownership as an operating risk.
+
+8. Treat undocumented handovers as a source of future failure.
+
+9. Preserve traceability from opportunity to decision to execution to learning.
+
+10. Strengthen the Lumicure Improvement Loop through every serious activity.
+
+Cross-function discipline ensures that Lumicure does not become a collection of disconnected efforts.
+
+It becomes an operating system.
 
 ---
 
@@ -780,7 +816,7 @@ Lumicure’s initial Operating Model shall include nine core operating functions
 6. Export Operations and Logistics
 7. Finance and Commercial Risk
 8. Knowledge & Continuous Improvement
-9. Technology and Systems
+9. Digital Systems & Automation
 
 These functions define what Lumicure must be able to do.
 
@@ -789,6 +825,32 @@ They do not define how many people Lumicure must hire immediately.
 During the early phase, the Founder may perform several functions personally.
 
 However, each function must still be defined separately so that it can later be delegated, improved, measured, systematized, and supported by technology.
+
+---
+
+## Function Success and Failure Lens
+
+Every operating function must understand both success and failure.
+
+Success indicators are not KPIs.
+
+They are architectural signs that the function is working correctly.
+
+Failure modes are not blame statements.
+
+They are predictable risks that the Operating Model must prevent.
+
+| Function                             | Function Success Indicators                                                                                               | Common Failure Modes                                                                                                                       |
+| ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| Founder Office                       | Strategic clarity, disciplined approvals, timely escalation decisions, constitutional alignment, controlled delegation    | Founder bottleneck, undocumented decisions, reactive approvals, unclear authority, personal memory dependency                              |
+| Commercial                           | Qualified opportunities, clearer buyer understanding, accurate RFQs, better follow-up, repeat buyer potential             | Chasing every inquiry, weak qualification, poor RFQ records, price-only selling, unverified buyer assumptions                              |
+| Manufacturer and Supplier Management | Verified supplier records, suitable manufacturer options, document readiness clarity, improved supplier intelligence      | Accepting supplier claims without evidence, weak suitability assessment, scattered supplier records, overdependence on one supplier        |
+| Regulatory and Documentation         | Clear document requirements, reduced regulatory uncertainty, better dossier visibility, fewer documentation gaps          | Treating export as simple trading, missing document requirements, unclear country assumptions, late regulatory escalation                  |
+| Quality and Trust                    | Early trust-risk identification, stronger verification discipline, better supplier credibility review, complaint learning | Trust sacrificed for revenue, accepting claims without evidence, weak escalation, quality concerns treated as paperwork                    |
+| Export Operations and Logistics      | Clear execution tracking, shipment readiness visibility, timely coordination, post-shipment learning                      | Poor handovers, shipment delays, incomplete documentation flow, weak logistics coordination, no post-shipment review                       |
+| Finance and Commercial Risk          | Controlled payment risk, margin discipline, working capital awareness, better bankability, financial records              | Risky credit, unclear payment terms, weak margin review, poor records, revenue pursued without financial discipline                        |
+| Knowledge & Continuous Improvement   | Lessons captured, SOP inputs created, templates improved, repeated mistakes reduced, institutional memory strengthened    | Learning left in personal memory, no SOP improvement, repeated mistakes, uncontrolled document changes, weak review discipline             |
+| Digital Systems & Automation         | Useful tools, organized data, version control, workflow support, automation readiness, AI-readiness                       | Automating broken workflows, tool complexity without discipline, fragmented data, weak access control, technology replacing accountability |
 
 ---
 
@@ -864,7 +926,7 @@ It is especially connected to:
 * Quality and Trust
 * Regulatory and Documentation
 * Knowledge & Continuous Improvement
-* Technology and Systems
+* Digital Systems & Automation
 
 ### Knowledge Capture
 
@@ -1169,7 +1231,7 @@ This function interfaces with:
 * Export Operations and Logistics
 * Finance and Commercial Risk
 * Knowledge & Continuous Improvement
-* Technology and Systems
+* Digital Systems & Automation
 
 ### Knowledge Capture
 
@@ -1265,7 +1327,7 @@ This function interfaces with:
 * Regulatory and Documentation
 * Export Operations and Logistics
 * Knowledge & Continuous Improvement
-* Technology and Systems
+* Digital Systems & Automation
 
 ### Knowledge Capture
 
@@ -1556,7 +1618,7 @@ It is especially connected to:
 * Regulatory and Documentation
 * Quality and Trust
 * Export Operations and Logistics
-* Technology and Systems
+* Digital Systems & Automation
 
 ### Knowledge Capture
 
@@ -1588,13 +1650,13 @@ Future systems may support this function through:
 
 ---
 
-## 24. Technology and Systems
+## 24. Digital Systems & Automation
 
 ### Purpose
 
-Technology and Systems supports tools, databases, automation, version control, AI-readiness, and future Golilo-enabling systems.
+Digital Systems & Automation supports operational tools, databases, workflow systems, version control, automation readiness, AI-readiness, and future Golilo-enabling systems.
 
-It ensures that technology supports validated work rather than replacing operating discipline.
+It ensures that digital systems support validated work rather than replacing operating discipline.
 
 ### Primary Outcomes
 
@@ -1637,7 +1699,7 @@ This function produces:
 
 ### Decision Authority
 
-Technology and Systems may recommend:
+Digital Systems & Automation may recommend:
 
 * Which tools support current workflows.
 * Which processes are ready for automation.
@@ -1690,7 +1752,7 @@ Its future work may include:
 * Verification tools.
 * Golilo platform modules.
 
-Technology must follow validated operations.
+Digital systems must follow validated operations.
 
 ---
 
@@ -1719,7 +1781,7 @@ Export Operations and Logistics executes approved transaction
         ↓
 Knowledge & Continuous Improvement captures learning
         ↓
-Technology and Systems improves tools and workflows
+Digital Systems & Automation improves tools and workflows
 ```
 
 This sequence is illustrative, not rigid.
@@ -1760,6 +1822,62 @@ Functions must be defined before hiring so that future roles are created intenti
 
 ---
 
+## Capability Maturity Model
+
+Every operating function shall mature over time.
+
+The maturity path is:
+
+```text
+Founder-Owned
+        ↓
+Documented
+        ↓
+Repeatable
+        ↓
+Measured
+        ↓
+Continuously Improved
+```
+
+### Stage 1 — Founder-Owned
+
+The Founder personally performs or closely supervises the function.
+
+This is acceptable in the early phase, but it must not become permanent dependency.
+
+### Stage 2 — Documented
+
+The function’s purpose, inputs, outputs, decisions, handovers, and learning requirements are written down.
+
+The function becomes visible and teachable.
+
+### Stage 3 — Repeatable
+
+The function can be performed consistently using approved templates, checklists, workflows, and review routines.
+
+Execution no longer depends only on memory.
+
+### Stage 4 — Measured
+
+The function can be reviewed through observable indicators such as quality of outputs, timeliness, error reduction, learning capture, risk escalation, or repeatability.
+
+This does not require complex dashboards in the early phase.
+
+It requires disciplined review.
+
+### Stage 5 — Continuously Improved
+
+The function improves its own work through captured learning, SOP updates, template refinement, system improvement, and better decisions.
+
+At this stage, the function strengthens Lumicure’s capability over time.
+
+The purpose of maturity is not bureaucracy.
+
+The purpose is to convert founder-held work into institutional capability.
+
+---
+
 ## 27. Function-to-Future-Document Traceability
 
 The operating functions defined in Part II will guide future documents.
@@ -1774,7 +1892,7 @@ The operating functions defined in Part II will guide future documents.
 | Export Operations and Logistics      | Export Architecture, shipment SOPs, logistics workflows, order execution trackers      |
 | Finance and Commercial Risk          | Financial Architecture, payment controls, pricing policy, working capital model        |
 | Knowledge & Continuous Improvement   | LOS, SOP Library, LKS governance, review loops, institutional learning                 |
-| Technology and Systems               | Technology Architecture, AI Architecture, Golilo Architecture, dashboards, automation  |
+| Digital Systems & Automation               | Technology Architecture, AI Architecture, Golilo Architecture, dashboards, automation  |
 
 This traceability ensures that future documents inherit operating logic rather than inventing it independently.
 
@@ -1825,12 +1943,18 @@ The Operating Functions defined in Part II create the following implications:
 
 10. Future Operating Model sections must define decision rights, information flow, cadence, and governance around these functions.
 
+11. Every function must understand both success indicators and common failure modes.
+
+12. Cross-function operating discipline is required to prevent silos, duplicated work, weak handovers, and undocumented decisions.
+
+13. Digital Systems & Automation shall support validated operating work rather than define enterprise technology strategy.
+
+14. Each operating function shall mature from founder-owned work into documented, repeatable, measured, and continuously improved capability.
+
 ---
 
 ## Part II Status
 
-LKS-003 Part II — Operating Functions is submitted for architecture review.
+LKS-003 Part II — Operating Functions is approved and frozen.
 
-This Part should be reviewed for function persistence, executability, founder independence, operating clarity, traceability, and alignment with LKS-000, LKS-001, LKS-002, ADR-0003, and LKS Quality Standard v1.0.
-
-My review: this is the correct abstraction. It defines **work that must be owned**, not people who must be hired. That keeps Lumicure scalable without making the early Operating Model unrealistic.
+Later sections shall reference this Part rather than redefine Lumicure’s operating functions.
